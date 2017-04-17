@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Droppable - Accept</title>
+    <!-- <link rel="stylesheet" href="../css/drop.css"> -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/sweetalert2/6.4.0/sweetalert2.min.css">
+    <link rel="stylesheet" href="../css/flexboxgrid.min.css">
+</head>
+<style type="text/css">
+    *{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background:#016FB9;;
+}
+
+.box{
+    background: #fff;
+    padding: 100px;
+    display: inline-block;
+    margin: 10px;
+    border: 5px solid #16a085;
+}
+
+#caja1-obj{
+    background-image: url('../img/match/a.png');
+    background-repeat: no-repeat;
+}
+
+#caja2-obj{
+    background-image: url('../img/match/manzana.png');
+    background-repeat: no-repeat;
+}
+
+#caja3-obj{
+    background-image: url('../img/match/cocodirlo.png');
+    background-repeat: no-repeat;
+}
+
+#caja4-obj{
+    background-image: url('../img/match/avion.png');
+    background-repeat: no-repeat;
+}
+
+#caja5-obj{
+    background-image: url('../img/match/e.png');
+    background-repeat: no-repeat;
+}
+
+#caja6-obj{
+    background-image: url('../img/match/elefante.png');
+    background-repeat: no-repeat;
+}
+
+#caja7-obj{
+    background-image: url('../img/match/ocho.png');
+    background-repeat: no-repeat;
+}
+
+#caja8-obj{
+    background-image: url('../img/match/once.png');
+    background-repeat: no-repeat;
+}
+
+#caja9-obj{
+    background-image: url('../img/match/i.png');
+    background-repeat: no-repeat;
+}
+
+#caja10-obj{
+    background-image: url('../img/match/helado.png');
+    background-repeat: no-repeat;
+}
+
+#caja11-obj{
+    background-image: url('../img/match/indio.png');
+    background-repeat: no-repeat;
+}
+
+#caja12-obj{
+    background-image: url('../img/match/iguana.png');
+    background-repeat: no-repeat;
+}
+
+#caja13-obj{
+    background-image: url('../img/match/O.png');
+    background-repeat: no-repeat;
+}
+
+#caja14-obj{
+    background-image: url('../img/match/pulpo.png');
+    background-repeat: no-repeat;
+}
+
+#caja15-obj{
+        background-image: url('../img/match/naranja.png');
+        background-repeat: no-repeat;
+    }
+
+#caja16-obj{
+        background-image: url('../img/match/arroz.png');
+        background-repeat: no-repeat;
+    }
+
+    #caja17-obj{
+        background-image: url('../img/match/u.png');
+        background-repeat: no-repeat;
+    }
+
+    #caja18-obj{
+        background-image: url('../img/match/niños.png');
+        background-repeat: no-repeat;
+    }
+
+    #caja19-obj{
+        background-image: url('../img/match/unicornio.png');
+        background-repeat: no-repeat;
+    }
+
+    #caja20-obj{
+        background-image: url('../img/match/paraguas.png');
+        background-repeat: no-repeat;
+    }
+
+
+.objetos{
+    background: #3498db;
+    height: 400px;
+    padding: 10px;
+}
+
+.box-obj{
+    padding: 60px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.win{
+    padding: 60px;
+    display: inline-block;
+    background: #2ecc71;
+    margin: 10px;
+}
+</style>
+<body>
+
+<div class="main">
+    <div class="container_1">
+        <div class="row center-xs">
+
+            <div class="cajas col-xs around-xs" id="caja-uno">
+                <div id="caja1" class="box">A</div>
+                <div id="caja2" class="box">Apple</div>
+                <div id="caja3" class="box">Alligator</div>
+                <div id="caja4" class="box">Airplane</div>
+            </div>
+
+            <div class="cajas col-xs around-xs" id="caja-dos" style="display: none">
+                <div id="caja5" class="box">E</div>
+                <div id="caja6" class="box">elephant</div>
+                <div id="caja7" class="box">eight</div>
+                <div id="caja8" class="box">eleven</div>
+            </div>
+
+            <div class="cajas col-xs around-xs" id="caja-tres" style="display: none">
+                <div id="caja9" class="box">I</div>
+                <div id="caja10" class="box">ice cream</div>
+                <div id="caja11" class="box">indian</div>
+                <div id="caja12" class="box">iguana</div>
+            </div>
+
+            <div class="cajas col-xs around-xs" id="caja-cuatro" style="display: none">
+                <div id="caja13" class="box">O</div>
+                <div id="caja14" class="box">octopus</div>
+                <div id="caja15" class="box">orange</div>
+                <div id="caja16" class="box">Oval</div>
+            </div>
+
+            <div class="cajas col-xs around-xs" id="caja-cinco" style="display: none">
+                <div id="caja17" class="box">U</div>
+                <div id="caja18" class="box">uniform</div>
+                <div id="caja19" class="box">unicorn</div>
+                <div id="caja20" class="box">umbrella</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="objetos">
+    <div class="container_1">
+        <div class="row center-xs">
+
+            <div class="cajas-obj col-xs around-xs" id="uno">
+                <div id="caja4-obj" class="box-obj"></div>
+                <div id="caja1-obj" class="box-obj"></div>
+                <div id="caja3-obj" class="box-obj"></div>
+                <div id="caja2-obj" class="box-obj"></div>
+            </div>
+
+            <div class="cajas-obj col-xs around-xs" id="dos" style="display: none">
+                <div id="caja8-obj" class="box-obj"></div>
+                <div id="caja5-obj" class="box-obj"></div>
+                <div id="caja7-obj" class="box-obj"></div>
+                <div id="caja6-obj" class="box-obj"></div>
+            </div>
+
+            <div class="cajas-obj col-xs around-xs" id="tres" style="display: none">
+                <div id="caja12-obj" class="box-obj"></div>
+                <div id="caja9-obj" class="box-obj"></div>
+                <div id="caja11-obj" class="box-obj"></div>
+                <div id="caja10-obj" class="box-obj"></div>
+            </div>
+
+            <div class="cajas-obj col-xs around-xs" id="cuatro" style="display: none">
+                <div id="caja16-obj" class="box-obj"></div>
+                <div id="caja13-obj" class="box-obj"></div>
+                <div id="caja15-obj" class="box-obj"></div>
+                <div id="caja14-obj" class="box-obj"></div>
+            </div>
+
+            <div class="cajas-obj col-xs around-xs" id="cinco" style="display: none">
+                <div id="caja20-obj" class="box-obj"></div>
+                <div id="caja17-obj" class="box-obj"></div>
+                <div id="caja19-obj" class="box-obj"></div>
+                <div id="caja18-obj" class="box-obj"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/sweetalert2/6.4.0/sweetalert2.min.js"></script>
+<script src="../js/drag.js"></script>
+</body>
+</html>

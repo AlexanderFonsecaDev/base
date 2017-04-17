@@ -1,0 +1,27 @@
+SELECT * FROM `usariocomentario` uc, comentario c, usuario u  
+WHERE u.usua_id=uc.usua_id
+and c.come_id=uc.come_id
+and u.usua_id='1';
+
+
+SELECT * FROM megusta m
+RIGHT JOIN comentario c
+   ON c.come_id = m.megu_idcome
+   RIGHT JOIN usuario u on u.usua_id = c.usua_id
+
+http://www.wakaala.net/post/creando-un-sistema-de-me-gusta-con-php-mysql-y-jquery-como-el-de-wakaala-1543.html
+  
+-----------------consulta megusta----------------------------
+SELECT *, IFNULL(m.megu_clase,'fa fa-thumbs-o-up')  FROM megusta m
+RIGHT JOIN comentario c
+   ON c.come_id = m.megu_idcome and m.megu_idusua2=3
+   RIGHT JOIN usuario u on u.usua_id = c.usua_id
+
+.--------------------------consulta me gusta mejorada--------------------
+SELECT m.*,c.come_comentario,c.come_fecha,u.usua_id,u.usua_nombre, IFNULL(m.megu_clase,'fa fa-thumbs-o-up') as clase  FROM megusta m
+RIGHT JOIN comentario c
+   ON c.come_id = m.megu_idcome and m.megu_idusua2=3
+   RIGHT JOIN usuario u on u.usua_id = c.usua_id ORDER BY c.come_id desc limit 10
+
+http://www.hinojosachapel.com/2008/11/como-hacer-una-simple-ventana-modal-con-html-y-javascript.aspx#.WKcVrzt97cc
+

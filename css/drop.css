@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background: #1c20cc;
+}
+
+.box{
+    background: #fff;
+    padding: 100px;
+    display: inline-block;
+    margin: 10px;
+    border: 5px solid #16a085;
+}
+
+#caja1-obj{
+    background-image: url("../img/match/a.png");
+    background-repeat: no-repeat;
+}
+
+#caja2-obj{
+    background-image: url("../img/match/manzana.png");
+    background-repeat: no-repeat;
+}
+
+#caja3-obj{
+    background-image: url("../img/match/cocodirlo.png");
+    background-repeat: no-repeat;
+}
+
+#caja4-obj{
+    background-image: url("../img/match/avion.png");
+    background-repeat: no-repeat;
+}
+
+.objetos{
+    background: #3498db;
+}
+
+.box-obj{
+    padding: 60px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.win{
+    padding: 60px;
+    display: inline-block;
+    background: #2ecc71;
+    margin: 10px;
+}
