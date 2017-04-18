@@ -292,6 +292,9 @@ $nombre=ucfirst($_SESSION['nombre']);
 			  }else if (idlecc==4){
 			  		$(".contenido-4").load( "php/ajax/cargar_juego_memoria.php", {idlecc:idlecc},function(data){
 					});
+			  }else if (idlecc==5){
+			  		$(".contenido-4").load( "php/ajax/cargar_dragDrop.php", {idlecc:idlecc},function(data){
+					});
 			  }else if (idlecc==3){
 			  		$(".contenido-4").load( "php/ajax/cargar_mostrar_imagen.php",{idlecc:idlecc},function(data){
 					});

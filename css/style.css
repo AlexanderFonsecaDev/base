@@ -38,8 +38,9 @@ h3{font-size: 10px;margin-bottom: 3px;}
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+/* estilos del choice */
 .wrap{width:90%;max-width:1000px;margin:0 auto;padding:20px;text-align: center;}
-h2{font-size: 16px;color: #001F3F;margin-bottom:20px;margin-left:20px;}
+h2{font-size: 20px;color: #001F3F;margin-bottom:20px;margin-left:20px;text-align: center}
 input[type="radio"]{display: none;}
 .radio label{
     color: #0774D9;
@@ -87,3 +88,6 @@ input[type="radio"]{display: none;}
 .radio input[type="radio"]:checked + label:before{
     display: none;
 }
+
+/************************************************************/
+

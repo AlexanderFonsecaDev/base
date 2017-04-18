@@ -12,17 +12,13 @@ $use1->bindParam(":lecc_id",$idlecc);
 $status=$use1->execute();
 while ($registros = $use1->fetch()) {
     $idmod = $registros["modu_id"];
-    echo "<h2>Multiple choice</h2>
-<section class='wrap'>
-    <div id='myDiv1' class='imagen'></div>
-    <div id='myDiv2'>
-        <h2>Escoge tu respuesta</h2>
-    </div>
-    <div id='myDiv3' class='radio'></div>
-    <div id='myDiv4'></div>
-    <div id='myDiv5'></div>
-</section> <input type='hidden' id='modulo' value='".$idmod."'/>";
+    echo "
+    <section class='drop-contenedor'>
+        <div class='dibujos' id='dibujos'></div>
+        <div class='drop-contenedor' id='contenedor_dibujos'></div>
+    </section>
+    <input type='hidden' id='modulo' value='".$idmod."'/>";
 }
 ?>
-
-<script src="js/choice.js"></script>
+<link rel="stylesheet" href="css/match.css">
+<script src="js/match.js"></script>

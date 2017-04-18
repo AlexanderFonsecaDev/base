@@ -1,0 +1,32 @@
+.drop-contenedor{
+    max-width:1300px;
+    margin: 0 auto;
+    color: #fff;
+    height: auto;
+    overflow: hidden;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-content:center;
+}
+
+.drop-contenedor .dibujos{
+    width: 100%;
+    text-align: center;
+}
+
+.drop-contenedor .drag{
+    width: 200px;
+    height: 200px;
+    margin:10px;
+    background: #34495e;
+    border: 7px solid #ffff00;
+    text-align: center;
+}
+
+.dibujos img{
+    border-style: none;
+    width: 150px;
+    margin: 10px;
+}

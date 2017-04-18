@@ -18,8 +18,7 @@ $correo=$_POST["correo"];
 $telefono=$_POST["telefono"];
 $url='/php/contoller';
 
-$use1 = $conexion->prepare("
-    INSERT INTO usuario (usua_nombre, usua_apellido,usua_url,usua_password,usua_pais,usua_ciudad,
+$use1 = $conexion->prepare("INSERT INTO usuario (usua_nombre, usua_apellido,usua_url,usua_password,usua_pais,usua_ciudad,
 	usua_fecha_nacimiento,usua_correo,usua_telefono) 
 	VALUES (:usua_nombre,:usua_apellido,:usua_url,:usua_password,:usua_pais,:usua_ciudad,:usua_fecha_nacimiento,:usua_correo,
 	:usua_telefono)");
@@ -36,6 +35,13 @@ $use1->bindParam(":usua_telefono",$telefono);
 
 $status=$use1->execute();
 echo $status;
+
+header("Location:../../index.php");
+
+
+
+
+
 $conexion=null;
 
 
