@@ -2,18 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38959506-863f-4344-a83b-330eba1dac8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/match.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/match.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/ajax/cargar_dragDrop.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/avion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/cocodirlo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/manzana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/arroz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/elefante.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/indio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/letraa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/naranja.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/niños.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/ocho.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/once.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/paraguas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/choice/pulpo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/arroz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/elefante.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/indio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/letraa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/naranja.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/niños.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/ocho.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/once.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/paraguas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/match/pulpo.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/O.png" afterPath="$PROJECT_DIR$/img/choice/O.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/a.png" afterPath="$PROJECT_DIR$/img/choice/a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/airplane.png" afterPath="$PROJECT_DIR$/img/choice/airplane.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/alligator.png" afterPath="$PROJECT_DIR$/img/choice/alligator.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/e.png" afterPath="$PROJECT_DIR$/img/choice/e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/helado.png" afterPath="$PROJECT_DIR$/img/choice/helado.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/i.png" afterPath="$PROJECT_DIR$/img/choice/i.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/iguana.png" afterPath="$PROJECT_DIR$/img/choice/iguana.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/u.png" afterPath="$PROJECT_DIR$/img/choice/u.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/choice/unicornio.png" afterPath="$PROJECT_DIR$/img/choice/unicornio.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/O.png" afterPath="$PROJECT_DIR$/img/match/O.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/a.png" afterPath="$PROJECT_DIR$/img/match/a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/airplane.png" afterPath="$PROJECT_DIR$/img/match/airplane.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/alligator.png" afterPath="$PROJECT_DIR$/img/match/alligator.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/e.png" afterPath="$PROJECT_DIR$/img/match/e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/helado.png" afterPath="$PROJECT_DIR$/img/match/helado.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/i.png" afterPath="$PROJECT_DIR$/img/match/i.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/iguana.png" afterPath="$PROJECT_DIR$/img/match/iguana.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/u.png" afterPath="$PROJECT_DIR$/img/match/u.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/match/unicornio.png" afterPath="$PROJECT_DIR$/img/match/unicornio.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/ajax/choice.php" afterPath="$PROJECT_DIR$/php/ajax/choice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/ajax/registrarUsuario.php" afterPath="$PROJECT_DIR$/php/ajax/registrarUsuario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platform.php" afterPath="$PROJECT_DIR$/platform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/match.js" afterPath="$PROJECT_DIR$/js/match.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,62 +62,28 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="985">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="choice.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/choice.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="55" lean-forward="false" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
-              <folding>
-                <element signature="n#!!block;n#generarAleatorio#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="match.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="match.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/match.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+            <state relative-caret-position="136">
+              <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="platform.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform.php">
+      <file leaf-file-name="choice.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/choice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="295" column="69" lean-forward="false" selection-start-line="295" selection-start-column="69" selection-end-line="295" selection-end-column="69" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#7199#8537#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cargar_dragDrop.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/ajax/cargar_dragDrop.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-              <folding>
-                <marker date="1492530442647" expanded="true" signature="180:245" ph="SELECT l.mod... leccion" />
-                <marker date="1492530442647" expanded="true" signature="434:552" ph="..." />
-                <marker date="1492530442647" expanded="true" signature="434:566" ph="..." />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="250" column="9" lean-forward="false" selection-start-line="250" selection-start-column="9" selection-end-line="250" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,7 +170,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -232,25 +228,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,18 +333,18 @@
       <workItem from="1491924094356" duration="626000" />
       <workItem from="1492440275680" duration="12887000" />
       <workItem from="1492522897173" duration="122000" />
-      <workItem from="1492523401822" duration="4019000" />
+      <workItem from="1492523401822" duration="9130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64393000" />
+    <option name="totallyTimeSpent" value="69504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31467474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31755725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -770,17 +748,31 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="985">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/choice.js">
+    <entry file="file://$PROJECT_DIR$/php/ajax/choice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="55" lean-forward="false" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+        <state relative-caret-position="391">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding>
-            <element signature="n#!!block;n#generarAleatorio#0" expanded="false" />
+            <marker date="1492530344431" expanded="true" signature="180:245" ph="SELECT l.mod... leccion" />
+            <marker date="1492530344431" expanded="true" signature="443:665" ph="..." />
+            <marker date="1492530344431" expanded="true" signature="508:556" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/ajax/cargar_dragDrop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <marker date="1492530442647" expanded="true" signature="180:245" ph="SELECT l.mod... leccion" />
+            <marker date="1492530442647" expanded="true" signature="434:552" ph="..." />
+            <marker date="1492530442647" expanded="true" signature="434:566" ph="..." />
           </folding>
         </state>
       </provider>
@@ -801,18 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/ajax/choice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding>
-            <marker date="1492530344431" expanded="true" signature="180:245" ph="SELECT l.mod... leccion" />
-            <marker date="1492530344431" expanded="true" signature="443:665" ph="..." />
-            <marker date="1492530344431" expanded="true" signature="508:556" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/match.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -821,22 +801,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/ajax/cargar_dragDrop.php">
+    <entry file="file://$PROJECT_DIR$/js/match.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <marker date="1492530442647" expanded="true" signature="180:245" ph="SELECT l.mod... leccion" />
-            <marker date="1492530442647" expanded="true" signature="434:552" ph="..." />
-            <marker date="1492530442647" expanded="true" signature="434:566" ph="..." />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/match.js">
+    <entry file="file://$PROJECT_DIR$/js/choice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        <state relative-caret-position="92">
+          <caret line="250" column="9" lean-forward="false" selection-start-line="250" selection-start-column="9" selection-end-line="250" selection-end-column="9" />
           <folding />
         </state>
       </provider>

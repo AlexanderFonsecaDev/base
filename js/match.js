@@ -2,19 +2,19 @@ var contador = 0;
 var acierto = 0;
 
 var imagenes = new Array();
-imagenes[0]=['img/match/letraa.png','img/match/a.png','img/match/airplane.png','img/match/alligator.png'];
-imagenes[1]=['img/match/e.png','img/match/elefante.png','img/match/ocho.png','img/match/once.png'];
-imagenes[2]=['img/match/i.png','img/match/indio.png','img/match/iguana.png','img/match/helado.png'];
-imagenes[3]=['img/match/o.png','img/match/ocho.png','img/match/arroz.png','img/match/pulpo.png'];
-imagenes[4]=['img/match/u.png','img/match/unicornio.png','img/match/niños.png','img/match/paraguas.png'];
+imagenes[0]=['img/match/a.png','img/match/apple.png','img/match/airplane.png','img/match/alligator.png'];
+imagenes[1]=['img/match/e.png','img/match/elephant.png','img/match/eigth.png','img/match/eleven.png'];
+imagenes[2]=['img/match/i.png','img/match/indian.png','img/match/iguana.png','img/match/helado.png'];
+imagenes[3]=['img/match/o.png','img/match/Orange.png','img/match/oval.png','img/match/octopus.png'];
+imagenes[4]=['img/match/u.png','img/match/unicornio.png','img/match/Uniform.png','img/match/Umbrella.png'];
 
 
 
 var respuestas = new Array();
 respuestas[0]=['a','apple','airplane','alligator'];
-respuestas[1]=['e','elefante','eight','eleven'];
+respuestas[1]=['e','elephant','eight','eleven'];
 respuestas[2]=['i','indian','iguana','ice cream'];
-respuestas[3]=['o','eight','oval','octopus'];
+respuestas[3]=['o','orange','oval','octopus'];
 respuestas[4]=['u','unicorn','uniform','umbrella'];
 
 $( document ).ready(function() {
